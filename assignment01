@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{\ How to Use Git }
+
+\begin{document}
+  \maketitle
+  Name: PENG CIYUAN,  Student number : 2018220161
+  
+  
+  Link:https://github.com/pcyyyy/assignment01
+  
+  
+  \section{Introduction about Git}
+  
+  GIT is a distributed version control system originally developed for Linux kernel version control, which is more advantageous in teamwork than centralized version control management such as CVS.After years of discovery, GIT can now run on operating systems like Linux/Windows/MAC.
+ 
+ \section{The Steps to Use Git}
+ 
+ 
+ \subsection{Download MSYSGIT}
+ 
+ Download MSYSGIT from https://gcontractor github.io/ and install it.When the installation is complete, GIT appears in the start menu, and you can see that there are three ways to run: GIT Bash, GIT CMD, and GIT GUI, where Bash and CMD are both command-line mode of operation.
+ 
+ \subsection{Create New Repository}
+ 
+ Click the "Create New Repository" menu to select the path to Create the Repository, and click the "Create" button to Create a New Repository.The new warehouse was originally a separate directory on the local machine, and after it was established as a warehouse, a new.git folder was added to save the version and other information.
+ 
+ \subsection{Create a New File}
+ 
+ Go to local repository directory and create a new text file, testggit.TXT. Click the Rescan button in GIT and the file appears in the UnstagedChanges list.
+  
+ \subsection{Add to Version Library}
+ 
+ Click the "StageChanged" button to add the file to the staging area of the repository.
+ 
+ \subsection{Submit New Document}
+ 
+ Enter Commit version information, click the "Commit" button, and submit a new file, which adds a new file to the GIT repository.
+ 
+ \subsection{Browse the Files in the Library}
+ 
+ Select "Browse Master's Files" from the Repositroy menu to Browse the list of Files in the library.
+ 
+ \subsection{Modify the File}
+ 
+ Open the testggit. TXT file in the local folder, edit and save.Click the Rescan button in the GIT GUI, you can see the file into the "Unstaged Changes" list.In the Modified Not Staged content list showing the changes.As with the add file action, click the "StageChanged" and "Commit" buttons to append the change to the repository.
+ 
+ \subsection{View the Modified History of the Local Repository}
+ 
+ Click on "Visualize Master's History" in the "Repositroy" menu to display the change History of the local repository.
+ 
+  \subsection{Connect to the Remote Warehouse Server}
+  
+  Apply for a GIT repository on GitHub, connect to the repository on GitHub via the Add feature in the Remote menu, initialize the Remote repository and upload the local repository data to the Remote repository.
+  
+  \begin{figure}
+  	
+  	\centering
+  	
+  	\includegraphics[width=100mm]{Figures/Screenshoot}
+  	
+  	\caption{Screenshoot of github}
+  	
+  	\label{Fig:Screenshoot of github}
+  	
+  \end{figure}
+ 
