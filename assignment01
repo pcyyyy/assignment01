@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
 \title{\ How to Use Git }
 
 \begin{document}
@@ -53,15 +55,11 @@
   
   Apply for a GIT repository on GitHub, connect to the repository on GitHub via the Add feature in the Remote menu, initialize the Remote repository and upload the local repository data to the Remote repository.
   
-  \begin{figure}
-  	
-  	\centering
-  	
-  	\includegraphics[width=100mm]{Figures/Screenshoot}
-  	
-  	\caption{Screenshoot}
-  	
-  	\label{Fig:Screenshoot of github}
-  	
-  \end{figure}
- 
+  \begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Screenshoot}
+	\caption{Screenshoot}
+	\label{fig:screenshoot}
+\end{figure}
+  
+ \end{document}
